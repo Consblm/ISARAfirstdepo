@@ -1,0 +1,23 @@
+# ISARAfirstdepo
+Prise en main git et gitub pour open 23
+## Pour changer de repertoire :
+cd Documents/
+## Créer un dossier et y entrer
+mkdir TD-git
+cd TD-git
+
+##Faire un clone du dépot distant sur la machines local 
+git clone https://github.com/Consblm/ISARAfirstdepo/edit/main/README.md
+
+##se déplacer dans le dossier4cd ISARAfirstdepo
+
+##on fait a modification dans un ficher test.txt
+
+on ajoute le fichier dans le staging
+git add test.txt
+
+##on commit 
+git commit -m "nouveau fichier"
+
+## on pousse le dépot distant
+git push
